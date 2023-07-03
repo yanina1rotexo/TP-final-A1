@@ -1,0 +1,11 @@
+body{
+    color: aliceblue;
+    background-color: black;
+}
+.navbar-brand{
+    color:#bd1b43;
+    ;
+}
+.nav-item:hover .nav-link {
+    background-color: gray;
+  }

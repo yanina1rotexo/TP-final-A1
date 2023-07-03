@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="listadetareas.css">
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Comandas</h1>
+        <div class="search">
+            <form>
+                <input type="text" placeholder="Agregar pedido...">
+                <button class="btn-add">Agregar</button>
+            </form>
+        </div>
+        <div class="li-container">
+            <ul>
+                
+            </ul>
+        </div>
+        <div class="empty">
+            <p>No hay pedidos pendientes.</p>
+        </div>
+    </div>
+    
+    <div class="content">
+
+        <h1 class="logo">Burguer` <span>s</span></h1>
+
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <h3>Burguer`s</h3>
+                <form action="">
+                    <p>
+                        <label>Nombre</label>
+                        <input type="text" name="fullname">
+                    </p>
+                    <p>
+                        <label>Email</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Telefono</label>
+                        <input type="tel" name="phone">
+                    </p>
+                    <p class="block">
+                       <label>Mensaje</label> 
+                        <textarea name="message" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button>
+                            enviar
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h4>Burguer`s</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i></li>
+                    <li><i class="fas fa-phone"></i> 344565673</li>
+                    <li><i class="fas fa-envelope-open-text"></i> burguer@gmail.com</li>
+                </ul>
+                <p>en breve recibira una respuesta a tu consulta.
+                </p>
+                <p>Company.com</p>
+            </div>
+        </div>
+
+    </div>
+    <script src="formulario.js"></script>
+    <script src="listadetareas.js"></script>
+</body>
+</html>
